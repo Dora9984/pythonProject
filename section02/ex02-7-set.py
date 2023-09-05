@@ -31,4 +31,31 @@ thisset.add('잠만보')
 print(thisset)
 
 # 다른 Set 항목 추가
-thisset1 = {}
+thisset1 = {'피카츄','라이츄','파이리'}
+thisset2 = {'꼬부기','잠만보','뮤츠'}
+thisset1.update(thisset2)
+print(thisset1)
+
+# 항목 제거
+thisset = {'피카츄','라이츄','파이리'}
+thisset.remove('피카츄')
+print(thisset)
+
+# remove() - 없는 항목 삭제시 오류 발생
+# thisset.remove('피카츄')
+# print(thisset)
+
+# discard() - 없는 항목 삭제시 오류 발생하지 않는다
+thisset = {'피카츄','라이츄','파이리'}
+thisset.discard('피카츄')
+print(thisset)
+
+# 항목제거 2
+thisset.pop()
+print(thisset)
+
+# 비우기
+thisset.clear()
+print(thisset)
+
+
