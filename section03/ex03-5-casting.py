@@ -28,4 +28,9 @@ x = str(1)
 y = str(2)
 print(x + y) # 문자열 + 문자열 = 문자 연결
 
+# 아스키 코드 변환
+a = ord('A')
+print(a)
+b = chr(65)
+print(b)
 
