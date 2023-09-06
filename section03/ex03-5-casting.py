@@ -24,8 +24,8 @@ z = float("3")
 print(z)
 
 # 문자형
-x = str(1)
-y = str(2)
+x = str(1) # "1"
+y = str(2) # "2"
 print(x + y) # 문자열 + 문자열 = 문자 연결
 
 # 아스키 코드 변환
