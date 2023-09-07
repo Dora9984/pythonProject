@@ -23,3 +23,6 @@ print('a | b : {}'.format(a | b))
 print('a ^ b : {}'.format(a ^ b))
 # a 0 0110을 반전시키면 1 1001 값이 나옴
 print('~a : {}'.format(~a))
+
+print('a << 1 : {}'.format(a << 1)) # 0110 -> 1100 (8 + 4 + 0 + 0 = 12)
+print('a >> 1 : {}'.format(a >> 1)) # 0110 -> 0011 (0 + 0 + 2 + 1 = 3)
