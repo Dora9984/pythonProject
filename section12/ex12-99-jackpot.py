@@ -15,3 +15,9 @@ for n in range(1, 7): # 1 ~ 6
 
     pick = pot.pop()
     print(f'{n}번째 당첨번호는 {pick}입니다.')
+
+    jackpot.append(pick)
+    time.sleep(1) # 1초동안 프로그램 일시정지
+
+jackpot.sort()
+print(f'이번 당첨번호는 {jackpot}입니다.')
