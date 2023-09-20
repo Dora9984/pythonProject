@@ -1,7 +1,7 @@
 '''
 파일명: ex11-8-variable-local-global3.py
 
-pythontutor.com/render.html#mode=display
+pythontutor.com/render.html#mode=display <- 전역, 지역변수 이해에 참고
 '''
 # 전역변수 선언
 total = 0
